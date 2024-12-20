@@ -1,0 +1,43 @@
+.logo{
+    margin: 0.5vh;
+}
+.cabeçalho{
+    display: flex;
+    position: relative;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-menu{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/Menu.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.btn__menu{
+    display: none;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    left: 0.1%;
+}
+.btn__menu:checked~.lista-menu{
+    display: block;
+    top: 100%;
+}
+.lista-menu__item{
+    background-color: var(--corfundo2);
+    user-select: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.inicio{
+    color: white;
+    text-decoration: none;
+}
