@@ -1,5 +1,5 @@
-@import url(styles/reset.css);
-@import url(styles/cabeçalho.css);
+@import url(/styles/reset.css);
+@import url(/styles/cabeçalho.css);
 :root{
     --corfundo: #0F0F0F;
     --corfundo2: #1E1F23;
