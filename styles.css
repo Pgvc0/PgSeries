@@ -1,12 +1,13 @@
 @import url(styles/reset.css);
 @import url(styles/cabeçalho.css);
 :root{
-    --corfundo: #0F0F0F;
+    --corfundo: #313338;
     --corfundo2: #1E1F23;
     --branco: #F1F1F1;
     --botao: #272727;
     --botao2: #3F3F3F;
     --border: #1B1B1C;
+    --preto: #000000;
 }
 body{
     background-color: var(--corfundo);
@@ -19,6 +20,9 @@ body{
 .subtitulo{
     color: var(--branco);
 }
+.subtitulo2{
+    color: var(--corfundo);
+}
 .btns{
     display: flex;
 }
@@ -28,12 +32,6 @@ body{
 }
 .btn:hover{
     background-color: var(--botao2);
-}
-.passo{
-    display: none;
-}
-.passo.ativo{
-    display: block;
 }
 .series-in{
     margin: 1vh;
@@ -76,9 +74,69 @@ iframe{
     font-size: 25px;
     color: var(--branco);
     display: flex;
+    font-weight: bold;
 }
 .sinopse{
-    color: var(--botao2);
+    color: var(--branco);
     font-size: 15px;
     display: flex;
+}
+.big_container{
+    background-color: var(--branco);
+    margin: 100px 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 10px;
+}
+#search{
+    color: black;
+    background-color: transparent;
+    border-radius: 7px;
+    margin-top: 22px;
+    text-align: center;
+}
+.item{
+    display: flex;
+    margin: 1vh;
+}
+.item img{
+    width: 80px;
+    height: 140px;
+}
+.item-title{
+    margin-top: 1vh;
+    text-decoration: none;
+    color: var(--corfundo);
+    font-weight: bold;
+}
+.item-description{
+    text-decoration: none;
+    color: var(--corfundo);
+    margin-top: 2vh;
+}
+#temp{
+    display: none;
+}
+.temp{
+    display: flex;
+}
+.bloco{
+    background-color: var(--branco);
+    width: 5vh;
+    height: 5vh;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.temporada{
+    margin-top: 1vh;
+    color: var(--branco);
+    height: 5vh;
+    justify-content: center;
+    border-bottom: solid var(--border) 1px;
+    border-top: solid var(--border) 1px;
+    align-content: center;
 }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PgSeries</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="menu">
+            <input type="checkbox" id="menu" class="btn__menu">
+            <label for="menu">
+                <span class="img-menu"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item"><a href="index.html" class="inicio">Início</a></li>
+                <li class="lista-menu__item"><a href="Series.html" class="inicio">Filmes e Series</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo3d.png" alt="Logo do site" width="70" class="logo"></a>
+        </div>
+        <div class="pesquisa">
+            <div class="searchbar">
+                <a href="pesquisar.html">
+                    <label for="checkpesq">
+                        <span class="imgpesq"></span>
+                    </label>
+                </a>
+            </div>
+    </header>
+    <section class="big_container">
+        <div id="container">
+            <!-- Input de pesquisa -->
+            <div class="input-group">
+                <!-- Campo de input de pesquisa -->
+                <input 
+                    id="search" 
+                    type="text" 
+                    class="input-field" 
+                    placeholder="Pesquisar..."
+                >
+            </div>
+        </div>
+        <ul class="items">
+            <li class="item">
+                <!-- Imagem do item -->
+                <div class="item-image">
+                    <a href="spiderman/spiderEpisodios.html"><img src="img/Spiderman.png" alt="Poster do Espetacular Homem-Aranha"></a>
+                </div>
+
+                <!-- Conteúdo do item -->
+                <div class="item-content">
+                    <!-- Título -->
+                    <h2 class="item-title"><a href="spiderman/spiderEpisodios.html" class="item-title">O Espetacular Homem-Aranha</a></h2>
+
+                    <!-- Subtítulo -->
+                    <p class="item-subtitle">
+                        <i class="fa-solid fa-film"></i>
+                        
+                    </p>
+
+                    <!-- Descrição -->
+                    <p class="item-description">
+                        <a href="spiderman/spiderEpisodios.html" class="item-description">Peter Parker tem apenas 16 anos de idade, mas está prestes a ver sua vida mudar para sempre. De um adolescente...</a>
+                    </p>
+                </div>
+            </li>
+            <li class="item">
+                <!-- Imagem do item -->
+                <div class="item-image">
+                    <a href="xmen/xmenepisodios.html"><img src="img/xmen evolution.png" alt="Poster de X-men Evolution"></a>
+                </div>
+
+                <!-- Conteúdo do item -->
+                <div class="item-content">
+                    <!-- Título -->
+                    <h2 class="item-title"><a href="xmen/xmenepisodios.html" class="item-title">X-men Evolution</a></h2>
+
+                    <!-- Subtítulo -->
+                    <p class="item-subtitle">
+                        <i class="fa-solid fa-film"></i>
+                        
+                    </p>
+
+                    <!-- Descrição -->
+                    <p class="item-description">
+                        <a href="xmen/xmenepisodios.html" class="item-description">No Instituto xavier, Cyclop, Jean Grey, Spike e os outros mutantes se reúnem...</a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>  
+    <script src="script.js"></script>
+</body>
+</html>

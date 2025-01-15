@@ -41,3 +41,29 @@
     color: white;
     text-decoration: none;
 }
+.searchbar{
+    position: absolute;
+    left: 92%;
+    top: 37%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.pesquisa img{
+    width: 30px;
+}
+.imgpesq{
+    background-image: url(../img/Pesquisa.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+.list{
+    display: none;
+}
+.btn__pesq:checked~input{
+    display: block;
+    position: absolute;
+    right: 100%;
+}
